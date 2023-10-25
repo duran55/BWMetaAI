@@ -1,11 +1,6 @@
 BWMetaAI
 ========
 
-[![build](https://github.com/jncraton/BWMetaAI/actions/workflows/build.yml/badge.svg)](https://github.com/jncraton/BWMetaAI/actions/workflows/build.yml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5327653.svg)](https://doi.org/10.5281/zenodo.5327653)
-
-
-
 A Brood War AI designed to follow the modern 1v1 metagame.
 
 ![Zeal Goon vs Mech](docs/zeal_goon_tank.png)
