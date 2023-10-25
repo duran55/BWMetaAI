@@ -62,7 +62,7 @@ check_transports()
 
 wait(5000)
 upgrade(1, Air Weapons, 30)
-build_finish(1, Stargate)
+build_finish(2, Stargate)
 build_finish(1, Fleet Beacon)
 upgrade(1, Carrier Capacity, 30)
 wait(2500)
