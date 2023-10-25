@@ -56,7 +56,7 @@ multirun_file(tech_manager)
 --attack_loop--
 choose_from_dir(attacks)
 
-wait(100)
+wait(500)
 goto(attack_loop)
 
 # Tack on the expansion blocks to the bottom of the script
