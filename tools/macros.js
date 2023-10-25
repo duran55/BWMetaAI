@@ -304,7 +304,7 @@ var parse = function parse(content) {
             }
         })
         
-        var more_units_prob = Math.floor(256/mul) 
+        var more_units_prob = 128 // fixed 50% chance
         
         var done_block = nextBlockName()
         
@@ -315,7 +315,7 @@ var parse = function parse(content) {
                 ret += 'train(' + unit.quantity * i + ', ' + unit.name + ')\n'
             })
             
-            ret += 'random_jump(' + more_units_prob + ',' + more_units + ')\n'
+            ret += 'random_jump(' + more_units_prob + ', ' + more_units + ')\n'
             
             units.forEach(function (unit) {
                 ret += 'attack_add(' + unit.quantity * i + ', ' + unit.name + ')\n'
