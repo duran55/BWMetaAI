@@ -1,6 +1,10 @@
 use_attack_vs(Zerg, Terran, Protoss)
 
 if owned(hydralisk den):
+    if owned(Queen's Nest):
+      if enemyowns(Machine Shop):
+          attack_train(6, Zerg Queen)
+
     attack_multiple(2, 16 Hydra)
 
     if owned(greater spire):

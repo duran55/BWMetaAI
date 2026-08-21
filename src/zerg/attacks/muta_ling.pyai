@@ -1,6 +1,10 @@
 use_attack_vs(Zerg, Terran, Protoss)
 
 if owned(spire):
+    if owned(Queen's Nest):
+      if enemyowns(Machine Shop):
+          attack_train(6, Zerg Queen)
+
     attack_multiple(3, 4 Muta, 12 Ling)
     if enemyownsair():
         attack_train(2, scourge)

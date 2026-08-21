@@ -52,6 +52,9 @@ build_finish(1, Zerg Ultralisk Cavern)
 upgrade(1, Chitinous Plating, 80)
 upgrade(2, Flyer Attacks, 80)
 
+if enemyowns(Machine Shop):
+    tech(Spawn Broodling, 80)
+
 wait(5000)
 
 upgrade(1, Anabolic Synthesis, 80)

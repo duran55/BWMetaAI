@@ -1,6 +1,8 @@
 use_attack_vs(Zerg, Terran, Protoss)
 
 if owned(Ultralisk cavern):
+    if enemyowns(Machine Shop):
+        attack_train(6, Zerg Queen)
     if owned(defiler mound):
         attack_train(2, Zerg Defiler)
     attack_multiple(4, 2 Ultralisk, 12 Zergling)
