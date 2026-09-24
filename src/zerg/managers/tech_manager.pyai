@@ -55,8 +55,8 @@ tech(Plague, 80)
 
 wait(1000)
 
-build_start(1, spire)
-build_finish(1, spire)
+# Keep a Spire after morphing one into Greater Spire (muta_ling keys on owned(spire)).
+build_finish(2, spire)
 build_finish(1, greater spire)
 
 upgrade(3, Zerg Melee Attacks, 30)
