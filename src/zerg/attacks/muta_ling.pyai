@@ -5,7 +5,10 @@ if owned(spire):
     
     if owned(Greater Spire):
         attack_train(2, Guardian)
-        
+
+    if owned(Ultralisk cavern):
+        attack_train(2, Ultralisk)
+
     if enemyownsair():
         attack_train(2, scourge)
     

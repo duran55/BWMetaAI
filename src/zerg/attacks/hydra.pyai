@@ -3,7 +3,10 @@ use_attack_vs(Zerg, Terran, Protoss)
 if owned(hydralisk den):
     attack_multiple(2, 8 Hydra, 12 Zergling)
     attack_train(2, Lurker)
-    
+
+    if owned(Ultralisk cavern):
+        attack_train(2, Ultralisk)
+
     if owned(defiler mound):
         attack_train(1, Zerg Defiler)
         
