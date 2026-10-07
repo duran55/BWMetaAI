@@ -51,14 +51,7 @@ multirun_loop:
                     stop()
 
 wait_until(12)
-build_finish(1, Pylon, 50)
-build(1, Gateway, 50)
-
-wait_until(21)
-build_finish(1, Pylon, 50)
-build_finish(2, Pylon, 50)
-player_need(1, Forge)
-build(2, Gateway, 50)
-build(4, Cannon, 50)
+build_finish(1, Pylon, 80)
+build_start(1, Gateway)
 
 stop()
