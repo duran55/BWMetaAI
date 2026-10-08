@@ -52,6 +52,7 @@ multirun_loop:
 
 wait_until(12)
 build_finish(1, Pylon, 80)
+build(2, Cannon, 50)
 build_start(1, Gateway)
 
 stop()
