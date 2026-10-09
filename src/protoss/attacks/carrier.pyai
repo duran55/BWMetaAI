@@ -1,7 +1,13 @@
 use_attack_vs(Terran, Protoss)
 
 if owned(Fleet Beacon):
-    if owned(Arbiter Tribunal):
-        attack_train(1, Arbiter)
     attack_multiple(2, 2 Carrier)
-    attack_simple()
+    
+if owned(stargate):
+    if owned(arbiter tribunal):
+        attack_train(1, Arbiter)
+        
+if owned(Cybernetics Core):
+    attack_multiple(2, 4 Zealot, 4 Dragoon)
+
+attack_simple()
