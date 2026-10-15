@@ -16,6 +16,8 @@ if enemyowns(Command Center):
     build_finish(1, Robotics Facility)
     build_finish(1, Observatory)
     train(1, Observer)
+    upgrade(1, Sensor Array, 30)
+    upgrade(1, Gravitic Boosters, 30)
 if enemyowns(Nexus):
     upgrade(1, Singularity Charge, 30)
 
