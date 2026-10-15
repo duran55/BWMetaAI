@@ -62,6 +62,7 @@ upgrade(3, Flyer Attacks, 30)
 
 wait(5000)
 
+build_finish(2, spire)
 build_start(1, greater spire)
 build_finish(1, defiler mound)
 tech(Plague, 80)
