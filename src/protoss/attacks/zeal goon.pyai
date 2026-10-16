@@ -7,10 +7,9 @@ if owned(stargate):
 if owned(Templar Archives):
     attack_train(2, High Templar)
     attack_train(1, Archon)
-    if random(128):
-        attack_train(1, Dark Templar)
+    attack_train(1, Dark Templar)
 
 if owned(Cybernetics Core):
-    attack_multiple(4, 4 Zealot, 4 Dragoon)
+    attack_multiple(3, 6 Zealot, 6 Dragoon)
 
 attack_simple()
