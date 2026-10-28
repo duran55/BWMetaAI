@@ -37,9 +37,6 @@ multirun_loop:
 
 multirun_loop:
     if enemyownscloaked():
-        player_need(1, Barracks)
-        player_need(1, Engineering Bay)
-        player_need(1, Academy)
         build_start(1, missile turret, 50)
         build_start(1, Comsat Station, 50)
         wait(300)
@@ -60,7 +57,6 @@ multirun_loop:
                 build_start(6, Missile Turret)
         stop()
     if enemyownsairtech():
-        player_need(1, Engineering Bay)
         build_start(1, missile turret, 50)
         build_start(2, missile turret, 50)
         if enemyowns(hatchery):
@@ -69,7 +65,6 @@ multirun_loop:
                 build_start(3, Missile Turret)
                 build_start(4, Missile Turret)
         wait(300)
-        player_need(1, Academy)
         build_start(1, Comsat Station, 50)
         wait_until(18)
         build_start(3, Missile Turret)
