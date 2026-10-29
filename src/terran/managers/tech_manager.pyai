@@ -12,8 +12,8 @@ if enemyowns(hatchery):
     build_finish(4, Barracks, 80)
     build_finish(2, Engineering Bay, 80)
     build_start(1, Factory)
-    upgrade(1, Infantry Armor, 30)
-    upgrade(1, Infantry Weapons, 30)
+    upgrade(1, Infantry Armor, 80)
+    upgrade(1, Infantry Weapons, 80)
     build_finish(1, Factory, 80)
     build_finish(1, Starport, 80)
     build_start(1, Control Tower, 80)
@@ -21,15 +21,7 @@ if enemyowns(hatchery):
     tech(Irradiate, 30)
     build_finish(2, Starport)
     build_start(2, Control Tower)
-    random_jump(64, tech_manager_skip_bio) # Possible mech switch
-    wait(2000)
-    upgrade(2, Infantry Armor, 30)
-    upgrade(2, Infantry Weapons, 30)
-    wait(3000)
-    random_jump(64, tech_manager_skip_bio) # Possible mech switch
-    upgrade(3, Infantry Armor, 30)
-    upgrade(3, Infantry Weapons, 30)
-    wait(5000)
+    goto(tech_manager_skip_bio)
 
 --tech_manager_skip_bio--
 
