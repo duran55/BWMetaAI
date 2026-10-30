@@ -66,7 +66,3 @@ loop:
     if time(10):
         if enemyowns(hatchery):
             build_start(1, barracks)
-            if resources(500,0):
-                build_start(2, barracks, 10)
-            wait(3000)
-            build_start(2, barracks, 10)

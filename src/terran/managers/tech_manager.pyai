@@ -6,8 +6,6 @@ if enemyowns(hatchery):
     build_start(3, Barracks, 80)
     build_finish(1, Academy, 80)
     tech(Stim Packs, 80)
-    build_start(4, Barracks, 80)
-    build_finish(4, Barracks, 80)
     build_finish(2, Engineering Bay, 80)
     build_start(1, Factory)
     upgrade(1, Infantry Armor, 80)
