@@ -2,7 +2,9 @@ use_attack_vs(Zerg)
 
 if owned(science facility):
     if owned(control tower):
-        do_morph(8, Science Vessel)
+        do_morph(3, Science Vessel)
         attack_train(1, Terran Science Vessel)
+        
 attack_multiple(3, 12 Marine, 4 Medic)
+
 attack_simple()
