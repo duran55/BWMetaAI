@@ -11,6 +11,8 @@ multirun_loop:
     if owned(Cybernetics Core):
         defense_ground(Dragoon)
         defense_air(Dragoon)
+    if owned(Robotics Facility):
+        defense_ground(Reaver)
     if owned(Templar Archives):
         if enemyowns(Spire):
             defense_ground(Archon)
