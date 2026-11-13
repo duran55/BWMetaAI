@@ -2,7 +2,7 @@ sc_path = $(SCPATH)
 src = src
 config = default
 
-all: build/patch_rt.mpq maps
+all: build/patch_rt.mpq
 
 run: patch
 	@$(sc_path)/StarCraft.exe -launch
