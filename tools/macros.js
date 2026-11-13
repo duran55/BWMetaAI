@@ -304,7 +304,7 @@ var parse = function parse(content) {
             }
         })
         
-        var more_units_prob = Math.floor(256/mul) 
+        var more_units_prob = 128 // fixed 50% chance
         
         var done_block = nextBlockName()
         
