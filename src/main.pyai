@@ -15,9 +15,7 @@ defaultbuild_off()
 default_min(7)
 
 multirun:
-    message(BWMetaAI github.com/jncraton/BWMetaAI {now} {commit})
-    wait(200)
-    message(gl hf)
+    message(BWMetaAI-next {now} {commit})
 
 # Watchdog to activate automatic supply management (farms_timing) if resources
 # get too high. This prevents a very rare soft hang when getting supply blocked 
