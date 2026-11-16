@@ -3,5 +3,5 @@ use_attack_vs(Terran, Protoss)
 if owned(Fleet Beacon):
     if owned(Arbiter Tribunal):
         attack_train(1, Arbiter)
-    attack_multiple(2, 6 Carrier, 6 Zealot)
+    attack_multiple(2, 2 Carrier)
     attack_simple()
