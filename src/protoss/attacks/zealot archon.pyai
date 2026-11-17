@@ -6,7 +6,7 @@ if owned(Cybernetics Core):
 if owned(Stargate):
     attack_train(1, Corsair)
     if enemyowns(Spire):
-      attack_multiple(3, 2 Corsair)
+        attack_multiple(3, 2 Corsair)
 
 if owned(Templar Archives):
     if random(128):
