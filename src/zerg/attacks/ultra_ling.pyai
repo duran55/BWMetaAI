@@ -1,12 +1,13 @@
 use_attack_vs(Zerg, Terran, Protoss)
 
 if owned(Ultralisk cavern):
-    if owned(defiler mound):
-        attack_train(2, Zerg Defiler)
-    attack_multiple(4, 2 Ultralisk, 12 Zergling)
+    attack_multiple(2, 6 Ultralisk, 12 Zergling)
+    
     if enemyownsair():
         if owned(spire):
             attack_train(2, scourge)
-        if owned(greater spire):
-            attack_train(2, scourge)
+            
+    if owned(defiler mound):
+        attack_train(1, Zerg Defiler)
+        
     attack_simple()
