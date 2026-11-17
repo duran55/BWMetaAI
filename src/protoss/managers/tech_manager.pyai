@@ -60,8 +60,9 @@ upgrade(3, Protoss Armor, 80)
 
 build_finish(1, Robotics Facility)
 build_finish(1, Observatory)
-if owned(Robotics Support Bay):
-    upgrade(1, Gravitic Drive, 30)
+build_finish(1, Robotics Support Bay)
+upgrade(1, Gravitic Drive, 30)
+upgrade(1, Scarab Damage, 30)
 check_transports()
 
 wait(5000)
